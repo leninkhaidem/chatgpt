@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "currency": "AED",
+  "updatedAt": "2026-07-24T08:00:00+04:00",
+  "cycle": {
+    "start": "2026-07-23",
+    "end": "2026-08-22"
+  },
+  "transactions": [
+    {
+      "id": "2026-07-23-apple-79999",
+      "date": "2026-07-23",
+      "merchant": "APPLE.COM/BILL",
+      "amount": 799.99,
+      "category": "Subscriptions & digital"
+    },
+    {
+      "id": "2026-07-23-spinneys-21910",
+      "date": "2026-07-23",
+      "merchant": "SPINNEYS NSHAMA 2",
+      "amount": 219.1,
+      "category": "Groceries"
+    },
+    {
+      "id": "2026-07-23-urbanclap-7900",
+      "date": "2026-07-23",
+      "merchant": "UrbanClap",
+      "amount": 79,
+      "category": "Home services"
+    }
+  ],
+  "reviewItems": [
+    {
+      "transactionId": "2026-07-23-apple-79999",
+      "merchant": "APPLE.COM/BILL",
+      "amount": 799.99,
+      "reason": "Large Apple charge; verify whether this was an intended purchase or subscription."
+    }
+  ]
+}

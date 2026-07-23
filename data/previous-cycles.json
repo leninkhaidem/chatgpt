@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "currency": "AED",
+  "cycles": [
+    {
+      "start": "2026-06-23",
+      "end": "2026-07-22",
+      "total": 22348.5,
+      "transactionCount": 134
+    }
+  ]
+}

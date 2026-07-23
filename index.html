@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#f6f2ea" />
+    <meta
+      name="description"
+      content="A privacy-safe, read-only dashboard for cycle-to-date expenses."
+    />
+    <title>Expense Dashboard</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="shell">
+      <header class="masthead">
+        <div>
+          <p class="eyebrow">Personal expense tracker</p>
+          <h1>Where the money went.</h1>
+          <p class="intro">
+            A clear, read-only view of the current expense cycle.
+          </p>
+        </div>
+        <div class="cycle-stamp" aria-label="Current expense cycle">
+          <span>Current cycle</span>
+          <strong id="cycle-label">Loading…</strong>
+          <small id="updated-label"></small>
+        </div>
+      </header>
+
+      <main id="dashboard" aria-live="polite">
+        <section class="summary-grid" aria-label="Expense summary">
+          <article class="metric metric-primary">
+            <span>Cycle to date</span>
+            <strong id="cycle-total">—</strong>
+            <small id="cycle-progress">—</small>
+          </article>
+          <article class="metric">
+            <span>Latest day</span>
+            <strong id="latest-total">—</strong>
+            <small id="latest-date">—</small>
+          </article>
+          <article class="metric">
+            <span>Transactions</span>
+            <strong id="transaction-count">—</strong>
+            <small id="daily-average">—</small>
+          </article>
+          <article class="metric">
+            <span>Needs a look</span>
+            <strong id="review-count">—</strong>
+            <small>Unusual or unclear items</small>
+          </article>
+        </section>
+
+        <section class="insight-grid">
+          <article class="panel category-panel">
+            <div class="panel-heading">
+              <div>
+                <p class="kicker">Distribution</p>
+                <h2>Spend by category</h2>
+              </div>
+              <span class="panel-note" id="top-category-note"></span>
+            </div>
+            <div class="donut-layout">
+              <div class="donut-wrap">
+                <svg
+                  id="category-donut"
+                  class="donut"
+                  viewBox="0 0 200 200"
+                  role="img"
+                  aria-label="Donut chart showing spend by category"
+                ></svg>
+                <div class="donut-center" aria-hidden="true">
+                  <span>Total</span>
+                  <strong id="donut-total">—</strong>
+                </div>
+              </div>
+              <div id="category-legend" class="legend"></div>
+            </div>
+          </article>
+
+          <article class="panel">
+            <div class="panel-heading">
+              <div>
+                <p class="kicker">Pace</p>
+                <h2>Daily spending</h2>
+              </div>
+              <span class="panel-note" id="peak-day-note"></span>
+            </div>
+            <div id="daily-chart" class="daily-chart" role="img"></div>
+          </article>
+        </section>
+
+        <section class="insight-grid lower-grid">
+          <article class="panel">
+            <div class="panel-heading">
+              <div>
+                <p class="kicker">Concentration</p>
+                <h2>Top merchants</h2>
+              </div>
+            </div>
+            <div id="merchant-bars" class="merchant-bars"></div>
+          </article>
+
+          <article class="panel review-panel">
+            <div class="panel-heading">
+              <div>
+                <p class="kicker">Attention</p>
+                <h2>Review queue</h2>
+              </div>
+            </div>
+            <div id="review-list" class="review-list"></div>
+          </article>
+        </section>
+
+        <section class="panel transactions-panel">
+          <div class="panel-heading">
+            <div>
+              <p class="kicker">Details</p>
+              <h2>Recent transactions</h2>
+            </div>
+            <span class="panel-note">Public view · private metadata excluded</span>
+          </div>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>Date</th>
+                  <th>Merchant</th>
+                  <th>Category</th>
+                  <th class="amount">Amount</th>
+                </tr>
+              </thead>
+              <tbody id="transaction-rows"></tbody>
+            </table>
+          </div>
+        </section>
+
+        <section class="history-strip">
+          <div>
+            <p class="kicker">Previous cycle</p>
+            <h2 id="previous-cycle-label">—</h2>
+          </div>
+          <strong id="previous-cycle-total">—</strong>
+          <span id="previous-cycle-meta">—</span>
+        </section>
+      </main>
+
+      <div id="error-state" class="error-state" hidden>
+        <strong>The dashboard data could not be loaded.</strong>
+        <span>Please refresh in a moment.</span>
+      </div>
+
+      <footer>
+        <span>Expense Dashboard</span>
+        <span>Updated automatically from a sanitized data file.</span>
+      </footer>
+    </div>
+
+    <script src="./app.js" defer></script>
+  </body>
+</html>
