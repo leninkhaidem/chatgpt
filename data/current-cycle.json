@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "currency": "AED",
-  "updatedAt": "2026-07-25T08:49:45+04:00",
+  "updatedAt": "2026-07-25T09:04:00+04:00",
   "cycle": {
     "start": "2026-07-23",
     "end": "2026-08-22"
@@ -29,13 +29,6 @@
       "category": "Home services"
     },
     {
-      "id": "2026-07-23-enbd-telegraphic-transfer-2230700",
-      "date": "2026-07-23",
-      "merchant": "Emirates NBD Telegraphic Transfer",
-      "amount": 22307,
-      "category": ""
-    },
-    {
       "id": "2026-07-24-noon-minutes-4115",
       "date": "2026-07-24",
       "merchant": "Noon Minutes",
@@ -48,13 +41,6 @@
       "merchant": "Emirates NBD Direct Debit",
       "amount": 5928,
       "category": ""
-    },
-    {
-      "id": "2026-07-24-enbd-telegraphic-transfer-898500",
-      "date": "2026-07-24",
-      "merchant": "Emirates NBD Telegraphic Transfer",
-      "amount": 8985,
-      "category": ""
     }
   ],
   "reviewItems": [
@@ -65,22 +51,10 @@
       "reason": "Large Apple charge; verify whether this was intended."
     },
     {
-      "transactionId": "2026-07-23-enbd-telegraphic-transfer-2230700",
-      "merchant": "Emirates NBD Telegraphic Transfer",
-      "amount": 22307,
-      "reason": "Beneficiary or purpose not provided; category needs review."
-    },
-    {
       "transactionId": "2026-07-24-enbd-direct-debit-592800",
       "merchant": "Emirates NBD Direct Debit",
       "amount": 5928,
       "reason": "Direct-debit beneficiary not provided; category needs review."
-    },
-    {
-      "transactionId": "2026-07-24-enbd-telegraphic-transfer-898500",
-      "merchant": "Emirates NBD Telegraphic Transfer",
-      "amount": 8985,
-      "reason": "Beneficiary or purpose not provided; category needs review."
     }
   ]
 }
