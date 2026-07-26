@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "currency": "AED",
-  "updatedAt": "2026-07-26T08:29:27+04:00",
+  "updatedAt": "2026-07-26T11:26:32+04:00",
   "cycle": {
     "start": "2026-07-23",
     "end": "2026-08-22"
@@ -40,21 +40,21 @@
       "date": "2026-07-24",
       "merchant": "Emirates NBD Direct Debit",
       "amount": 5928,
-      "category": ""
+      "category": "Automotive"
     },
     {
       "id": "2026-07-25-careem-5800",
       "date": "2026-07-25",
       "merchant": "Careem",
       "amount": 58,
-      "category": ""
+      "category": "Careem"
     },
     {
       "id": "2026-07-25-digital-dubai-10000",
       "date": "2026-07-25",
       "merchant": "Digital Dubai",
       "amount": 100,
-      "category": ""
+      "category": "Bills & utilities"
     },
     {
       "id": "2026-07-25-lulu-20460",
@@ -89,7 +89,7 @@
       "date": "2026-07-25",
       "merchant": "I T D A General Trading",
       "amount": 215,
-      "category": ""
+      "category": "Shopping"
     },
     {
       "id": "2026-07-25-mawgif-4000",
@@ -103,7 +103,7 @@
       "date": "2026-07-25",
       "merchant": "Digital Dubai Du",
       "amount": 1642.83,
-      "category": ""
+      "category": "Bills & utilities"
     }
   ],
   "reviewItems": [
@@ -112,36 +112,6 @@
       "merchant": "APPLE.COM/BILL",
       "amount": 799.99,
       "reason": "Large Apple charge; verify whether this was intended."
-    },
-    {
-      "transactionId": "2026-07-24-enbd-direct-debit-592800",
-      "merchant": "Emirates NBD Direct Debit",
-      "amount": 5928,
-      "reason": "Direct-debit beneficiary was not provided; category needs review."
-    },
-    {
-      "transactionId": "2026-07-25-careem-5800",
-      "merchant": "Careem",
-      "amount": 58,
-      "reason": "The alert does not identify whether this was a ride, food order, or another service."
-    },
-    {
-      "transactionId": "2026-07-25-digital-dubai-10000",
-      "merchant": "Digital Dubai",
-      "amount": 100,
-      "reason": "The transaction purpose is unclear; category needs review."
-    },
-    {
-      "transactionId": "2026-07-25-itda-general-trading-21500",
-      "merchant": "I T D A General Trading",
-      "amount": 215,
-      "reason": "The merchant description is too general to categorize confidently."
-    },
-    {
-      "transactionId": "2026-07-25-digital-dubai-du-164283",
-      "merchant": "Digital Dubai Du",
-      "amount": 1642.83,
-      "reason": "The transaction purpose is unclear; category needs review."
     }
   ]
 }
