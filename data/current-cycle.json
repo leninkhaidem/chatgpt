@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "currency": "AED",
-  "updatedAt": "2026-07-26T11:26:32+04:00",
+  "updatedAt": "2026-07-27T08:57:21+04:00",
   "cycle": {
     "start": "2026-07-23",
     "end": "2026-08-22"
@@ -104,6 +104,34 @@
       "merchant": "Digital Dubai Du",
       "amount": 1642.83,
       "category": "Bills & utilities"
+    },
+    {
+      "id": "2026-07-26-noon-6475",
+      "date": "2026-07-26",
+      "merchant": "Noon",
+      "amount": 64.75,
+      "category": ""
+    },
+    {
+      "id": "2026-07-26-noon-6695",
+      "date": "2026-07-26",
+      "merchant": "Noon",
+      "amount": 66.95,
+      "category": ""
+    },
+    {
+      "id": "2026-07-26-mnm-optics-173000",
+      "date": "2026-07-26",
+      "merchant": "M N M Optics",
+      "amount": 1730,
+      "category": "Health & wellness"
+    },
+    {
+      "id": "2026-07-26-chanel-2053000",
+      "date": "2026-07-26",
+      "merchant": "CHANEL",
+      "amount": 20530,
+      "category": "Shopping"
     }
   ],
   "reviewItems": [
@@ -112,6 +140,24 @@
       "merchant": "APPLE.COM/BILL",
       "amount": 799.99,
       "reason": "Large Apple charge; verify whether this was intended."
+    },
+    {
+      "transactionId": "2026-07-26-noon-6475",
+      "merchant": "Noon",
+      "amount": 64.75,
+      "reason": "Item details were unavailable, so the category remains unconfirmed."
+    },
+    {
+      "transactionId": "2026-07-26-noon-6695",
+      "merchant": "Noon",
+      "amount": 66.95,
+      "reason": "Item details were unavailable, so the category remains unconfirmed."
+    },
+    {
+      "transactionId": "2026-07-26-chanel-2053000",
+      "merchant": "CHANEL",
+      "amount": 20530,
+      "reason": "High-value purchase; verify that it was intended."
     }
   ]
 }
