@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "currency": "AED",
-  "updatedAt": "2026-07-27T08:57:21+04:00",
+  "updatedAt": "2026-07-28T08:20:34+04:00",
   "cycle": {
     "start": "2026-07-23",
     "end": "2026-08-22"
@@ -132,6 +132,20 @@
       "merchant": "CHANEL",
       "amount": 20530,
       "category": "Shopping"
+    },
+    {
+      "id": "2026-07-27-roxy-cinema-16600",
+      "date": "2026-07-27",
+      "merchant": "Roxy Cinema",
+      "amount": 166,
+      "category": "Entertainment"
+    },
+    {
+      "id": "2026-07-27-spinneys-9985",
+      "date": "2026-07-27",
+      "merchant": "SPINNEYS NSHAMA 2",
+      "amount": 99.85,
+      "category": "Groceries"
     }
   ],
   "reviewItems": [
