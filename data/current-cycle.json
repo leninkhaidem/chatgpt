@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "currency": "AED",
-  "updatedAt": "2026-07-30T08:34:00+04:00",
+  "updatedAt": "2026-07-31T08:49:00+04:00",
   "cycle": {
     "start": "2026-07-23",
     "end": "2026-08-22"
@@ -176,6 +176,13 @@
       "category": ""
     },
     {
+      "id": "2026-07-29-barkat-quality-plus-2873",
+      "date": "2026-07-29",
+      "merchant": "Barkat Quality Plus",
+      "amount": 28.73,
+      "category": "Groceries"
+    },
+    {
       "id": "2026-07-29-noon-minutes-3955",
       "date": "2026-07-29",
       "merchant": "Noon Minutes",
@@ -183,11 +190,25 @@
       "category": ""
     },
     {
-      "id": "2026-07-29-barkat-quality-plus-2873",
-      "date": "2026-07-29",
-      "merchant": "Barkat Quality Plus",
-      "amount": 28.73,
-      "category": "Groceries"
+      "id": "2026-07-30-brands-for-less-5500",
+      "date": "2026-07-30",
+      "merchant": "Brands For Less",
+      "amount": 55,
+      "category": "Shopping"
+    },
+    {
+      "id": "2026-07-30-easy-taxi-sports-3000",
+      "date": "2026-07-30",
+      "merchant": "Easy Taxi Sports & Recreation",
+      "amount": 30,
+      "category": ""
+    },
+    {
+      "id": "2026-07-30-taste-of-korea-23300",
+      "date": "2026-07-30",
+      "merchant": "The Taste of Korea",
+      "amount": 233,
+      "category": "Dining & delivery"
     }
   ],
   "reviewItems": [
@@ -238,6 +259,12 @@
       "merchant": "Noon Minutes",
       "amount": 39.55,
       "reason": "Item details were unavailable, so the category remains unconfirmed."
+    },
+    {
+      "transactionId": "2026-07-30-easy-taxi-sports-3000",
+      "merchant": "Easy Taxi Sports & Recreation",
+      "amount": 30,
+      "reason": "The merchant may represent a recreational service or an equipment purchase, so the category remains unconfirmed."
     }
   ]
 }
