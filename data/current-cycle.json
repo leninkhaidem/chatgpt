@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "currency": "AED",
-  "updatedAt": "2026-07-31T08:49:00+04:00",
+  "updatedAt": "2026-07-31T11:31:46.059+04:00",
   "cycle": {
     "start": "2026-07-23",
     "end": "2026-08-22"
@@ -40,7 +40,7 @@
       "date": "2026-07-24",
       "merchant": "Noon Minutes",
       "amount": 41.15,
-      "category": ""
+      "category": "Groceries"
     },
     {
       "id": "2026-07-25-careem-5800",
@@ -166,14 +166,14 @@
       "date": "2026-07-28",
       "merchant": "Noon Minutes",
       "amount": 72.4,
-      "category": ""
+      "category": "Groceries"
     },
     {
       "id": "2026-07-28-noon-minutes-8020",
       "date": "2026-07-28",
       "merchant": "Noon Minutes",
       "amount": 80.2,
-      "category": ""
+      "category": "Groceries"
     },
     {
       "id": "2026-07-29-barkat-quality-plus-2873",
@@ -187,7 +187,7 @@
       "date": "2026-07-29",
       "merchant": "Noon Minutes",
       "amount": 39.55,
-      "category": ""
+      "category": "Groceries"
     },
     {
       "id": "2026-07-30-brands-for-less-5500",
@@ -219,12 +219,6 @@
       "reason": "Large Apple charge; verify whether this was intended."
     },
     {
-      "transactionId": "2026-07-24-noon-minutes-4115",
-      "merchant": "Noon Minutes",
-      "amount": 41.15,
-      "reason": "Item details were unavailable, so the category remains unconfirmed."
-    },
-    {
       "transactionId": "2026-07-26-noon-6475",
       "merchant": "Noon",
       "amount": 64.75,
@@ -241,24 +235,6 @@
       "merchant": "CHANEL",
       "amount": 20530,
       "reason": "High-value purchase; verify that it was intended."
-    },
-    {
-      "transactionId": "2026-07-28-noon-minutes-7240",
-      "merchant": "Noon Minutes",
-      "amount": 72.4,
-      "reason": "Item details were unavailable, so the category remains unconfirmed."
-    },
-    {
-      "transactionId": "2026-07-28-noon-minutes-8020",
-      "merchant": "Noon Minutes",
-      "amount": 80.2,
-      "reason": "Item details were unavailable, so the category remains unconfirmed."
-    },
-    {
-      "transactionId": "2026-07-29-noon-minutes-3955",
-      "merchant": "Noon Minutes",
-      "amount": 39.55,
-      "reason": "Item details were unavailable, so the category remains unconfirmed."
     },
     {
       "transactionId": "2026-07-30-easy-taxi-sports-3000",
