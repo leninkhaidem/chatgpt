@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "currency": "AED",
-  "updatedAt": "2026-07-31T12:45:17.176+04:00",
+  "updatedAt": "2026-07-31T12:47:23.567+04:00",
   "cycle": {
     "start": "2026-07-23",
     "end": "2026-08-22"
@@ -212,12 +212,6 @@
     }
   ],
   "reviewItems": [
-    {
-      "transactionId": "2026-07-23-apple-79999",
-      "merchant": "APPLE.COM/BILL",
-      "amount": 799.99,
-      "reason": "Large Apple charge; verify whether this was intended."
-    },
     {
       "transactionId": "2026-07-26-chanel-2053000",
       "merchant": "CHANEL",
